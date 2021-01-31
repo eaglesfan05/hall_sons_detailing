@@ -9,3 +9,30 @@ h1 {
   font-size: 50px;
   text-transform: uppercase;
 }
+
+#header {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  letter-spacing: 0.5em;
+  border: 7px solid #0a4738;
+  display: flex;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  background-color: grey;
+  padding: 5px;
+}
+#welcome,
+#gallery,
+#services,
+#contact {
+  height: 400px;
+}
+#links > a {
+  text-decoration: none;
+  color: white;
+}
