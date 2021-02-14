@@ -11,23 +11,28 @@ h1 {
 }
 
 #header {
-  width: 100%;
+  /* position: fixed; */
+  position: relative;
+  top: 0px;
+  width: 100vw;
   background-color: black;
   padding: 20px;
-  color: white;
+  display: flex;
+  align-content: center;
+  /* color: white; */
   letter-spacing: 0.5em;
-  border: 7px solid #0a4738;
+  /* border: 7px solid #0a4738; */
   display: flex;
 }
 
 .content {
   width: 90%;
   margin: 0 auto;
-  background-color: grey;
+  /* background-color: grey; */
   padding: 5px;
+  /* padding-top: 175px; */
 }
-#welcome,
-#gallery,
+
 #services,
 #contact {
   height: 400px;
@@ -35,4 +40,40 @@ h1 {
 #links > a {
   text-decoration: none;
   color: white;
+}
+
+#links {
+  margin: auto 20px auto auto;
+  font-size: 1.5em;
+}
+#brand > h1 {
+  background-color: white;
+  padding: 20px;
+}
+#gallery {
+  height: auto;
+  padding: 0;
+  position: relative;
+}
+#welcomeImage {
+  margin-left: 45vw;
+}
+#welcomeImage > img {
+  height: 600px;
+  /* position: relative; */
+}
+#brand {
+}
+
+#leftImage {
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 40px;
+
+  height: auto;
+  width: auto;
+}
+
+#leftImage > img {
+  height: 450px;
 }
